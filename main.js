@@ -36,6 +36,7 @@ class Class extends Client {
         })
     }
 
+   
     async launch() {
         console.log(blue("Starting the bot"));
         this.commands = new Collection();
